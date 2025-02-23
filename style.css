@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, Helvetica, sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+    background-image: url(img/tomato-3919426_1280.jpg);
+    color: greenyellow;
+    padding: 100px 80px 30px 20px;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 700;
+    color:green;
+}
+main{
+    width: 500px;
+    margin: 50px 20px 30px 40px;
+}
+.tag-lines {
+    font-family:"Grechen Fuemen", serif;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+    margin-bottom: 5px;
+    color: blue;
+}
+
+span{
+    background-color: aquamarine;
+    width: 50px;
+    font-size: 40px;
+}
+p{
+    display:block;
+    width: 300px;
+    background-color: chartreuse;
+}
+#Prod{
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    border: solid;
+    border: thick double rgb(155, 44, 211);
+    border-left: none;
+    border-right: none;
+}
+#Prod > h3 {
+    margin-bottom: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 0px;
+    
+}
+
+.flex-container{
+    padding: 0px;
+    list-style-type:none;
+    align-items: center;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 1;
+
+}
+
+.flex-item{
+    margin-left: 2px;
+    flex-basis: 180px;
+    background-color: lightgreen;
+    text-align: center;
+    flex-flow:wrap;
+    flex-grow: 1;
+}
+
+.flex-item:first-child{
+    margin-left: 0px;
+    flex-grow: 1;
+}
+
+.flex-item a {
+    /* float:left; */
+    display: inline-block;
+    padding: 14px 16px;
+    color: darkgreen;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 8px;
+}
